@@ -55,6 +55,7 @@ body {
     position: relative;
     max-width: 100%;
     max-height: 100%;
+    margin-bottom: 40px;
 
 }
 
@@ -106,18 +107,29 @@ img {
 
 }
 
+.cuore {
+    position: absolute;
+    bottom: 600px;
+    left: 373px;
+    background-color: white;
+    font-size: 30px;
+    color: black;
+}
 
 
+.flex-container-footer {
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.info {
+    color: white;
+    font-size: smaller;
+}
 
+.social {
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
-/*DEBUG*/
