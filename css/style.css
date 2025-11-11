@@ -4,14 +4,16 @@
     box-sizing: border-box;
 }
 
+.bg-orange {
+    background-color: orangered;
+}
+
 body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .flex-container {
-    background-color: orangered;
     height: 70px;
-
 }
 
 .links {
@@ -19,6 +21,7 @@ body {
     justify-content: space-between;
     color: white;
     margin-left: 30px;
+    align-items: flex-end;
 }
 
 .categories {
@@ -26,6 +29,7 @@ body {
     display: flex;
     gap: 10px;
     color: white;
+    margin-left: 20%;
 }
 
 .icons {
@@ -33,7 +37,7 @@ body {
     display: flex;
     gap: 10px;
     color: white;
-    margin-right: 30px;
+    margin-right: 20%;
 }
 
 .logo {
@@ -109,11 +113,11 @@ img {
 
 .cuore {
     position: absolute;
-    bottom: 600px;
-    left: 373px;
     background-color: white;
     font-size: 30px;
     color: black;
+    bottom: 90%;
+    right: 0;
 }
 
 
@@ -133,3 +137,23 @@ img {
     color: white;
 }
 
+.card:hover .cuore {
+    cursor: pointer;
+    color: red;
+}
+
+.lables {
+    position: absolute;
+    bottom: -15%;
+    left: 0;
+    ;
+}
+
+.card-top {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
