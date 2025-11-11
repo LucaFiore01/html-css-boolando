@@ -3,3 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex-container {
+    background-color: orange;
+    height: 70px;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+}
+
+.categories {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.icons {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    color: white;
+    margin-right: 30px;
+}
+
+.logo {
+    height: 50px;
+    padding: 10px;
+    
+}
+
+.boolean-logo {
+    display: flex;
+    margin-right: 70px;
+}
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DEBUG*/
+
+.card {
+    background-color: blueviolet;
+    height: 100px;
+    
+}
